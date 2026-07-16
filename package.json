@@ -1,0 +1,16 @@
+{
+  "name": "site-migration-comparator",
+  "version": "1.0.0",
+  "description": "Compares an old website against its new replacement: route coverage, content similarity, and a visual dashboard.",
+  "type": "module",
+  "scripts": {
+    "setup": "npx playwright install chromium",
+    "routes": "node route-compare.mjs",
+    "content": "node content-compare.mjs",
+    "audit": "node route-compare.mjs && node content-compare.mjs"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}

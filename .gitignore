@@ -1,0 +1,7 @@
+node_modules/
+
+# Generated outputs — uncomment if you don't want to commit results
+# route-report.json
+# content-report.json
+# compare-report.html
+# missing-pages.txt

@@ -1,0 +1,1514 @@
+[
+  {
+    "path": "/",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/about",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/academy",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/appointment/success",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/appointments",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/authors",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/authors/dr-mahesh",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/authors/dr-ratnesh",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/blog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/blog/canine-distemper-essential-vet-guide-to-a-serious-threat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/blog/surprise-health-benefits-of-regular-pet-dog-cat-checkups",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/blog/treating-gum-disease-and-gingivitis-in-dogs-effectively",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/10-things-to-know-before-getting-a-labrador-as-a-pet-dog",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/5-shocking-facts-about-dog-vaccinations-you-never-knew",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/5-unexpected-benefits-of-dog-vaccinations-that-will-amaze-you",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/a-to-z-of-dog-puppy-vaccination",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/addison-s-disease-in-dogs-symptoms-effective-treatments",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/antimicrobial-resistance-icu-s-silent-threat",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/authors",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/avoid-dog-upset-stomachs-tips-solutions",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/best-dog-breeds-for-indian-homes-a-complete-guide",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/best-gentle-dog-breeds-in-india-for-easy-training",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/best-pet-insurance-plans-for-dogs-cats-in-2025",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/boost-dog-training-with-positive-reinforcement",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/boost-pet-happiness-tackling-depression-in-cats-dogs",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/can-dogs-get-the-flu-symptoms-treatments",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/canine-distemper-essential-vet-guide-to-a-serious-threat",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/canine-epilepsy-understanding-and-managing-seizures",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/cat-breathing-issues-heart-or-respiratory-cause",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/cat-dental-pain-signs",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/category/behavior%20&%20training",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/category/diseases%20&%20treatments",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/category/home%20clinics%20&%20mobile%20vets",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/category/nutrition%20&%20diet",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/category/pet%20health%20&%20wellness",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/category/pet-behavior",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/category/travel%20&%20relocation",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/category/veterinary%20services",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/celebrate-pet-health-discover-world-veterinary-day-and-why-is-this-celebrated",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/celebrate-veterinary-medicine-heroes-for-global-health",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/comparing-dry-vs-wet-cat-food-which-is-healthier",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/crucial-reasons-to-vaccinate-your-cat-for-health",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/cute-feline-play-fun-wearables-for-cat-health",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/debunking-hilarious-myths-about-cat-vaccinations-yes-cats-have-opinions",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/detecting-blindness-in-kittens-puppies-key-signs",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/detection-and-management-of-cognitive-dysfunction-in-cats",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/diagnosing-and-treating-feline-heart-disease",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/dog-abdominal-fluid-symptoms-causes-treatment",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/dog-and-puppy-cancer-prevalence-how-it-could-impact-your-pet-diagnosis-treatment",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/dog-ccl-surgery-cost-recovery-what-to-expect",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/dog-flu-symptoms-treatments-every-owner-should-know",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/dog-hip-dysplasia-surgery-costs-care-guide",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/dog-jaundice-signs-causes-treatment-explained",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/dog-seizures-spot-respond-and-treat-effectively",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/essential-cat-supplements-for-lifelong-health",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/essential-oils-safe-for-dogs-and-cats",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/essential-vaccinations-for-kittens-to-ensure-a-healthy-start-in-life",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/essential-vaccinations-puppies-kittens",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/fungal-infections-in-cats-symptoms-and-treatments",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/get-pet-travel-ready",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/guide-to-choosing-pet-insurance-20-must-know-parameters-for-dogs-cats-in-2025",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/home-vet-visits-hilarious-pet-antics-unleashed",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/how-to-know-if-your-cat-is-sick",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/how-to-prepare-your-kitten-for-a-stress-free-grooming",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/ivermectin-toxicity-in-cats-signs-and-prevention-tips",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/kitten-puberty-and-heat-cycles-explained-how-they-become-adults",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/managing-separation-anxiety-in-dogs-behavioural-training-crate-training-for-dogs-and-more",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/neurotoxic-household-dangers-for-both-dogs-and-cats",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/nsaids-in-pets-more-than-just-pain-relief",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/pemphigus-foliaceus-symptoms-treatment-guide",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/pet-body-language-guide",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/prepare-your-kitten-essential-steps-before-vaccination",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/protect-your-pet-essential-antirabies-vaccination-guide",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/puppy-dog-vaccinations-essential-life-stage-schedule",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/purr-fect-protection-busting-the-silliest-cat-vaccination-myths",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/surprise-health-benefits-of-regular-pet-dog-cat-checkups",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/tackle-pet-obesity-essential-health-tips",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/the-funniest-dog-vet-visit-reactions-ever-hilarious-pet-antics",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/the-ultimate-guide-to-keeping-your-pet-safe-expert-vaccination-tips",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/tips-to-get-travel-friendly-airlines",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/top-5-tips-for-boosting-your-pet-s-health-naturally",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/top-five-most-intelligent-dogs",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/top-puppy-vaccines-essential-guide-for-pet-owners",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/top-skin-conditions-in-dogs-cats-symptoms-solutions",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/treating-gum-disease-and-gingivitis-in-dogs-effectively",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/ultimate-puppy-feeding-guide-tips-for-balanced-nutrition",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/understanding-anal-sac-diseases-in-dogs-a-guide",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/understanding-brain-tumors-in-dogs-symptoms-treatment",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/understanding-cat-body-language",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/understanding-eosinophilic-keratitis-causes-and-care-tips",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/understanding-pet-travel-regulations",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/understanding-uveitis-causes-symptoms-and-treatments",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/urinary-incontinence-in-dogs-key-signs-and-solutions",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/uti-in-kittens-signs-and-effective-treatments",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/who-s-a-good-dog-top-5-expert-training-tips-revealed",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/why-do-cats-knead-the-science-behind-your-cat-s-quirky-habits",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/why-dogs-dig",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/why-dogs-eat-green-grass-unraveling-canine-curiosity",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/why-is-your-dog-s-tongue-out-uncover-the-reasons",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/why-regular-pet-wellness-visits-are-crucial",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/why-shaving-your-pet-s-fur-is-a-bad-idea",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/blogs/your-online-consultation-link",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/book-an-appointment",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/cancellation-policy",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/cat-dental-care",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/cat-grooming",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/cat-health-consultation",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/cat-hydration",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/cat-lab-test",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/cat-neuter-near-me",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/cat-neuter-surgery",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/cat-spaying-near-me",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/cat-urinary-care",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/cat-vaccination",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/consultation",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/dog-grooming",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/dog-health",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/dog-health-consultation",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/dog-lab-test",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/dog-neuter-near-me",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/dog-neuter-surgery",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/dog-spaying-near-me",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/dog-vaccination",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/faq",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/favorites",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/find-clinics",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/gold-membership",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/gold-membership-success",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/gold-membership/adult-cat-plan",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/gold-membership/adult-dog-plan",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/gold-membership/kitten-plan",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/gold-membership/puppy-plan",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/gold-membership/referral",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/help",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/home-pet-vaccination-gurugram",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/indian-pariah-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/indian-spitz",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/newsletters",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-clinic-delhi-vet-home-visit",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-clinic-faridabad-vet-home-visit",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-clinic-ghaziabad-vet-home-visit",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-clinic-gurgaon-vet-home-visit",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-clinic-near-me",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-clinic-noida-vet-home-visit",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-grooming-near-me",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-health-checkup-near-me",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-hospital-near-me",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-lab-test-near-me",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-profiles",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-vaccination-near-me",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/pet-vaccination-near-me-in-30-min",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/podcasts",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/pricing",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/privacy-policy",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/resources",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/2-in-1-cat-vaccination-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/3-in-1-vaccination-package-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/4-in-1-kitten-package-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/7-in-1-puppy-package-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/allergy-testing-package-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/allergy-testing-package-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/anti-rabies-cat-vaccination-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/anti-rabies-vaccination-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/basic-blood-profile-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/basic-blood-profile-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/basic-grooming-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/basic-grooming-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/basic-health-check-up-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/basic-health-check-up-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/basic-neutering-package-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/basic-neutering-package-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/basic-spaying-package-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/basic-spaying-package-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/behavioral-consultation-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/behavioral-consultation-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/complete-health-package-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/comprehensive-health-screen-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/comprehensive-health-screen-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/dhppil-vaccination-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/digestive-health-consultation-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/digestive-health-consultation-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/distemper-parvo-virus-vaccination-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/elite-surgery-package-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/feline-crp-cat-vaccine-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/full-grooming-package-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/full-grooming-package-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/kennel-cough-vaccination-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/lion-cut-special-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/premium-breed-specific-grooming-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/premium-neutering-package-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/premium-spaying-package-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/premium-spaying-package-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/senior-cat-profile",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/senior-dog-profile-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/skin-and-coat-consultation-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/skin-and-coat-consultation-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/skin-coat-consultation-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/skin-coat-consultation-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/spa-day-package-for-cat",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/service/spa-day-package-for-dog",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/services",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": false
+  },
+  {
+    "path": "/services-near-me",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/services/cat-vaccination",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/services/consultation",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/services/dog-vaccination",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/services/lab-tests",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/shipping-policy",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/sitemap.xml",
+    "oldStatus": 200,
+    "newStatus": 200,
+    "ok": true,
+    "titleMatch": true
+  },
+  {
+    "path": "/terms-of-service",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/testimonials",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/vet-home-visit",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/vet-home-visit-gurugram",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/veterinarian-near-me",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/video-consultation",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  },
+  {
+    "path": "/videos",
+    "oldStatus": 200,
+    "newStatus": 404,
+    "ok": false,
+    "titleMatch": false
+  }
+]
