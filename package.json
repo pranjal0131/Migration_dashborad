@@ -1,16 +1,40 @@
 {
-  "name": "site-migration-comparator",
-  "version": "1.0.0",
-  "description": "Compares an old website against its new replacement: route coverage, content similarity, and a visual dashboard.",
+  "name": "migration-monitor",
+  "version": "2.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "setup": "npx playwright install chromium",
-    "routes": "node route-compare.mjs",
-    "content": "node content-compare.mjs",
-    "audit": "node route-compare.mjs && node content-compare.mjs"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "worker": "tsx worker/index.ts",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:push": "prisma db push",
+    "setup:browser": "playwright install chromium"
   },
-  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.12.0",
+    "bcryptjs": "^3.0.2",
+    "next": "^15.4.2",
+    "playwright": "^1.54.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^4.0.5"
+  },
   "devDependencies": {
-    "playwright": "^1.61.1"
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "eslint": "^9.30.1",
+    "eslint-config-next": "^15.4.2",
+    "prisma": "^6.12.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "overrides": {
+    "@eslint/eslintrc": "3.3.1"
   }
 }

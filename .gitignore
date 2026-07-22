@@ -1,4 +1,10 @@
 node_modules/
+.next/
+.env
+.env.local
+*.log
+coverage/
+*.tsbuildinfo
 
 # Generated outputs — uncomment if you don't want to commit results
 # route-report.json
