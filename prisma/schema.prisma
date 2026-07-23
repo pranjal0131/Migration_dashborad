@@ -1,0 +1,123 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum RunStatus {
+  QUEUED
+  CRAWLING
+  COMPARING
+  COMPLETED
+  FAILED
+  CANCELLED
+}
+
+enum PageState {
+  OK
+  MISSING
+  DIFFERS
+  ERROR
+}
+
+model User {
+  id           String             @id @default(cuid())
+  name         String
+  email        String             @unique
+  passwordHash String
+  projects     MigrationProject[]
+  sessions     Session[]
+  createdAt    DateTime           @default(now())
+  updatedAt    DateTime           @updatedAt
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  tokenHash String   @unique
+  userId    String
+  expiresAt DateTime
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model MigrationProject {
+  id        String         @id @default(cuid())
+  name      String
+  oldUrl    String
+  newUrl    String
+  userId    String
+  user      User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  runs      MigrationRun[]
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+
+  @@index([userId, createdAt])
+}
+
+model MigrationRun {
+  id             String           @id @default(cuid())
+  projectId      String
+  project        MigrationProject @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  status         RunStatus        @default(QUEUED)
+  progress       Int              @default(0)
+  stageMessage   String           @default("Waiting for worker")
+  totalPages     Int              @default(0)
+  processedPages Int              @default(0)
+  okPages        Int              @default(0)
+  missingPages   Int              @default(0)
+  differsPages   Int              @default(0)
+  errorPages     Int              @default(0)
+  maxPages       Int              @default(500)
+  errorMessage   String?
+  startedAt      DateTime?
+  completedAt    DateTime?
+  pageResults    PageResult[]
+  events         RunEvent[]
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+
+  @@index([projectId, createdAt])
+  @@index([status, createdAt])
+}
+
+model PageResult {
+  id          String       @id @default(cuid())
+  runId       String
+  run         MigrationRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  path        String
+  oldStatus   String
+  newStatus   String
+  state       PageState
+  similarity Int          @default(0)
+  oldTitle    String?
+  newTitle    String?
+  oldH1       String?
+  newH1       String?
+  oldDesc     String?
+  newDesc     String?
+  oldWords    Int?
+  newWords    Int?
+  category    String?
+  action      String?
+  createdAt   DateTime     @default(now())
+
+  @@unique([runId, path])
+  @@index([runId, state])
+}
+
+model RunEvent {
+  id        String       @id @default(cuid())
+  runId     String
+  run       MigrationRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  level     String       @default("info")
+  message   String
+  createdAt DateTime     @default(now())
+
+  @@index([runId, createdAt])
+}
