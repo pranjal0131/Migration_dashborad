@@ -1,0 +1,3 @@
+"use client";
+import { useState } from "react";import { useRouter } from "next/navigation";
+export function RerunButton({projectId,disabled}:{projectId:string;disabled:boolean}){const [loading,setLoading]=useState(false);const router=useRouter();async function run(){setLoading(true);const response=await fetch(`/api/projects/${projectId}/runs`,{method:"POST"});setLoading(false);if(response.ok)router.refresh();else alert((await response.json()).error??"Could not start audit");}return <button className="button" disabled={disabled||loading} onClick={run}>{loading?"Queuing...":"Run new audit"}</button>}

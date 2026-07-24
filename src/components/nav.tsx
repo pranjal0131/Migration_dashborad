@@ -1,0 +1,1 @@
+export function Nav({ name }: { name:string }) { return <nav className="nav"><div className="shell nav-inner"><a href="/dashboard" className="brand"><span>Migration</span> Monitor</a><div className="nav-user"><span>{name}</span><form action="/api/auth/logout" method="post"><button className="button secondary">Sign out</button></form></div></div></nav>; }
