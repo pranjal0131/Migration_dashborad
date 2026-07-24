@@ -1,71 +1,81 @@
-# Site Migration Route & Content Comparator
+# Migration Monitor
 
-Compares an old website against its new replacement (e.g. a React → Next.js migration) and reports exactly what is missing or different, so nothing breaks in production.
+A multi-user website migration auditing platform. Users can create an account, enter an old and new website URL, and track route coverage and content parity from a private dashboard.
 
-It works in two stages:
+## What is included
 
-| Script | What it does | Output |
-|---|---|---|
-| `route-compare.mjs` | Discovers every path on the old site (sitemap.xml + BFS link crawl), then checks each path on both sites: HTTP status and `<title>` | `route-report.json` |
-| `content-compare.mjs` | Deep-compares every discovered path: text similarity %, title/H1/meta-description diff, suggested action for each missing page, and builds a visual dashboard | `content-report.json`, `compare-report.html` |
+- Email/password authentication with hashed passwords and server-side sessions
+- User-scoped migration projects and audit runs
+- PostgreSQL schema through Prisma
+- Persistent background worker using Playwright
+- Sitemap discovery plus same-origin link crawling
+- HTTP status, title, H1, meta description, word count, and content similarity checks
+- Live progress, summary metrics, per-page results, and repeat audits
+- Basic SSRF protection for submitted URLs and resolved host addresses
 
-## Requirements
+## Architecture
 
-- Node.js 18 or newer (uses built-in `fetch` and top-level `await`)
-- ~400 MB free disk space for the Chromium browser
+The web process handles authentication, project management, and dashboard rendering. The worker process polls PostgreSQL for queued runs and performs browser-based audits independently. This prevents long crawls from being tied to an HTTP request.
 
-## Setup
+Main tables:
 
-```bash
-npm install
-npx playwright install chromium
-```
+- `User` and `Session`
+- `MigrationProject` (belongs to a user)
+- `MigrationRun` (belongs to a project)
+- `PageResult` and `RunEvent`
 
-## Configure
+## Local setup
 
-Open both scripts and edit the CONFIG block at the top:
+Requirements: Node.js 20+, Docker, and about 400 MB for Chromium.
 
-```js
-const OLD = 'https://old-site.com';   // the site being replaced
-const NEW = 'https://new-site.com';   // the new site
-const MAX_PAGES = 500;                // crawl safety limit
-const CONCURRENCY = 5;                // parallel browser tabs
-```
+1. Create the environment file:
 
-## Run
+   ```powershell
+   Copy-Item .env.example .env
+   ```
 
-```bash
-# Stage 1: discover routes and compare status codes (run this first)
-node route-compare.mjs
+2. Start PostgreSQL:
 
-# Stage 2: deep content comparison + dashboard (needs stage 1's output)
-node content-compare.mjs
-```
+   ```powershell
+   docker compose up -d postgres
+   ```
 
-Then open **`compare-report.html`** in any browser (double-click works — it is a single fully self-contained file, easy to share).
+3. Install dependencies, create the database schema, and install Chromium:
 
-## Reading the dashboard
+   ```powershell
+   npm.cmd install
+   npm.cmd run db:push
+   npm.cmd run setup:browser
+   ```
 
-Pages are sorted by priority — most broken first:
+4. Run the web app and worker in separate terminals:
 
-- 🔴 **Missing (404)** — the page does not exist on the new site. Each card shows a suggested action (migrate the page, or add a 301 redirect) plus a link to the old page as a reference.
-- 🟠 **Content differs** — the page exists but less than 70% of its text matches the old one. Check the Title/H1/word-count diff and open both live pages from the card's links.
-- 🟢 **OK** — content matches; usually only the `<title>`/metadata needs fixing (the exact old title is shown on the card).
+   ```powershell
+   npm.cmd run dev
+   ```
 
-Use the filter buttons and the path search box to work through the list.
+   ```powershell
+   npm.cmd run worker
+   ```
 
-## Output files
+Open `http://localhost:3000`, create an account, and submit an old/new URL pair.
 
-| File | Contents |
+## Commands
+
+| Command | Purpose |
 |---|---|
-| `route-report.json` | Per-path status codes and title match (stage 1) |
-| `content-report.json` | Per-path similarity %, title/H1/meta diff, suggested action (stage 2) |
-| `compare-report.html` | The visual dashboard — a single self-contained file |
-| `missing-pages.txt` | Plain list of paths returning 404 on the new site |
+| `npm.cmd run dev` | Development web server |
+| `npm.cmd run worker` | Audit queue worker |
+| `npm.cmd run db:push` | Apply the Prisma schema locally |
+| `npm.cmd run db:migrate` | Create/apply a development migration |
+| `npm.cmd run typecheck` | TypeScript validation |
+| `npm.cmd run lint` | ESLint validation |
+| `npm.cmd run build` | Production build |
 
-## Notes & caveats
+## Production notes
 
-- If the crawl hits `MAX_PAGES`, the report is incomplete — the script warns loudly; raise the limit and rerun.
-- Single-page apps can return HTTP 200 for pages that don't really exist (soft 404s). Don't trust status codes alone — that's what the similarity % is for.
-- Only public pages are covered; anything behind a login is not crawled.
-- To share the results, just send `compare-report.html` — everything is embedded in that one file.
+- Run at least one web process and one worker process.
+- Use a managed PostgreSQL database with encrypted backups.
+- Put the web app behind HTTPS so the session cookie is secure.
+- For untrusted public usage, run workers in an isolated network/container and add DNS rebinding protection at the network layer.
+- Add email verification, password reset, rate limiting, and audit quotas before opening public signups.
